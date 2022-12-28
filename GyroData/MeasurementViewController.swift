@@ -67,6 +67,8 @@ class MeasurementViewController: UIViewController {
     private func addSubViews() {
         entireStackView.addArrangedSubview(segmentedControl)
         entireStackView.addArrangedSubview(graphView)
+        entireStackView.addArrangedSubview(measurementButton)
+        entireStackView.addArrangedSubview(stopButton)
         
         view.addSubview(entireStackView)
     }
